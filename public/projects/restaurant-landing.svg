@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <rect width="960" height="600" fill="#121418"/>
+  <defs>
+    <pattern id="g2" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect x="25" y="25" width="0.5" height="0.5" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="glow2" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#6b7fff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#6b7fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#g2)"/>
+  <circle cx="300" cy="460" r="240" fill="url(#glow2)"/>
+  <!-- Concentric rings -->
+  <circle cx="260" cy="440" r="180" stroke="#2e3348" stroke-width="1"/>
+  <circle cx="260" cy="440" r="140" stroke="#2e3348" stroke-opacity="0.7" stroke-width="1"/>
+  <circle cx="260" cy="440" r="100" stroke="#6b7fff" stroke-opacity="0.12" stroke-width="1"/>
+  <!-- Cross lines -->
+  <line x1="260" y1="260" x2="260" y2="620" stroke="#2e3348" stroke-width="1" stroke-dasharray="4 8"/>
+  <line x1="80" y1="440" x2="440" y2="440" stroke="#2e3348" stroke-width="1" stroke-dasharray="4 8"/>
+  <!-- Accent bar cluster -->
+  <rect x="640" y="80" width="120" height="3" rx="1.5" fill="#2e3348"/>
+  <rect x="640" y="95" width="90" height="3" rx="1.5" fill="#6b7fff" fill-opacity="0.4"/>
+  <rect x="640" y="110" width="150" height="3" rx="1.5" fill="#2e3348"/>
+  <rect x="640" y="125" width="60" height="3" rx="1.5" fill="#6b7fff" fill-opacity="0.25"/>
+  <!-- Small geometry cluster -->
+  <rect x="640" y="400" width="80" height="80" stroke="#2e3348" stroke-opacity="0.5" rx="4" fill="none"/>
+  <rect x="730" y="400" width="80" height="80" stroke="#2e3348" stroke-opacity="0.3" rx="4" fill="none"/>
+  <circle cx="680" cy="440" r="20" stroke="#6b7fff" stroke-opacity="0.2" stroke-width="1.5" fill="none"/>
+  <circle cx="680" cy="440" r="3" fill="#6b7fff" fill-opacity="0.7"/>
+  <!-- Diagonal -->
+  <line x1="500" y1="200" x2="640" y2="350" stroke="#6b7fff" stroke-opacity="0.1" stroke-width="1"/>
+</svg>
